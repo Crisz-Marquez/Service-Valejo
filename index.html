@@ -24,7 +24,7 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg nav__service">
-            <div class="container-fluid nav__service">
+            <div class="container-fluid">
                 <a class="navbar-brand nav__service-tittle" href="/index.html">SERVICE VALEJO</a>
                 <button class="navbar-toggler btn btn-primary" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -59,7 +59,39 @@
             </main>
         </div>
     </div>
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/images/Joomla.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/images/Summer Dog.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/images/Vanusa.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
+<!-- Carrusel -->
     <div class="container-fluid row p-2 py-5 m-auto carrusel">
         <section class="col-4">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
